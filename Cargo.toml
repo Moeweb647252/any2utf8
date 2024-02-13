@@ -2,6 +2,10 @@
 name = "any2utf8"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Convert any enncoding to utf-8"
+readme = "README.md"
+repository = "https://github.com/Moeweb647252/any2utf8"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
