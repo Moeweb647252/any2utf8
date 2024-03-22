@@ -44,7 +44,7 @@ fn exec(path: Vec<String>, ext: &Vec<String>) {
 
 fn main() {
     let matches = command!()
-        .arg(Arg::new("path").action(ArgAction::Append))
+        .arg(Arg::new("path").required(true).action(ArgAction::Append))
         .arg(
             Arg::new("ext")
                 .short('e')

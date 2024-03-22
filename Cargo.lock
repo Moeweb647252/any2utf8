@@ -52,7 +52,7 @@ dependencies = [
 
 [[package]]
 name = "any2utf8"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "chardetng",
  "clap",
