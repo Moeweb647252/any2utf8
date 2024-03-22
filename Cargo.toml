@@ -11,6 +11,7 @@ repository = "https://github.com/Moeweb647252/any2utf8"
 
 [dependencies]
 chardetng = "0.1.17"
+clap = { version = "4.5.3", features = ["cargo"] }
 encoding_rs = "0.8.33"
 
 [profile.release]
